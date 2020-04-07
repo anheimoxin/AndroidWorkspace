@@ -2,6 +2,7 @@ package com.anheimoxin.chinesechess.local;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,7 +25,7 @@ public class LocalGameActivity extends AppCompatActivity {
 
     private void initUI() {
         //绑定界面的控件
-        ConstraintLayout layout = findViewById(R.id.layout_local_game);
+        CoordinatorLayout layout = findViewById(R.id.layout_local_game);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
 

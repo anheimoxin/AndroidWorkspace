@@ -1,0 +1,6 @@
+<resources>
+    <!-- LocalGameActivity theme. -->
+    <style name="LocalGameThemeStatusBarTransparent" parent="LocalGameTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
